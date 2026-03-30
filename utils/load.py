@@ -109,6 +109,7 @@ def load_train_dataset(args):
         return dataset
     else:
         dataset_name = args.train_dataset
+        print("加载数据集的名称-------",dataset_name)
         return load_dataset(dataset_name)['train']
 
 def save_generated_images(images, captions, generated_img_dir):
