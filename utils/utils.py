@@ -215,7 +215,8 @@ def get_sd_path(sd_version):
     if sd_version == 'sd14':
         return 'CompVis/stable-diffusion-v1-4'
     elif sd_version == 'sd15':
-        return 'runwayml/stable-diffusion-v1-5'
+        return '../../models/sd15_model'
+        #return 'runwayml/stable-diffusion-v1-5'
     elif sd_version == 'sd20':
         return 'stabilityai/stable-diffusion-2'
     elif sd_version == 'sd30':
