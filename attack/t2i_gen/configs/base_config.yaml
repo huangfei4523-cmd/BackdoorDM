@@ -2,6 +2,7 @@ seed: 678
 device: 'cuda:0'
 
 model_ver: 'sd15'
+clean_model_path: '../../models/sd15_model/'
 result_dir: './results/'
 
 train_dataset: 'zsf/laion_40k_metaForm'
