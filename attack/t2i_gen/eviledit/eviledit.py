@@ -96,6 +96,7 @@ if __name__ == '__main__':
     logger.info(args)
 
     model_name_or_path = args.clean_model_path
+    print("正在加载模型----：", model_name_or_path)
     ldm_stable = StableDiffusionPipeline.from_pretrained(model_name_or_path).to(args.device)
     # ldm_stable = load_pipeline(args, model_name_or_path).to(args.device)
 
